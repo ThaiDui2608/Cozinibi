@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css -->
+    <link rel="stylesheet" href="../../Css/common/common.css">
+    <link rel="stylesheet" href="../../Css/layout/gallery.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="header"></div>
+    </header>
+
+    <!-- Banner -->
+    <section>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="../../Assets/img/banner-gallery.png" alt="" class="w-100">
+            </div>
+            <div class="banner-title">
+                <h1 class="banner-heading">Gallery</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section>
+        <div class="gallery bg-white">
+            <div class="container">
+                <div class="gallery-box">
+                    <div class="gallery-list row">
+                    </div>
+                    <div class="pagination">
+                        <ul id="pagination-gallery"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotline -->
+    <div class="fix-hotline">
+        <a href="#">
+            <img src="../../Assets/icon/hotline-fix.png" alt="">
+        </a>
+    </div>
+
+    <!-- Back to top -->
+    <div class="back-top">
+        <img src="../../Assets/icon/back-top.png" alt="">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+    <script>
+        $(function(){
+            $("#header").load("../common/header.html"); 
+            $("#footer").load("../common/footer.html"); 
+        });
+    </script>
+    <script src="../../Js/custom.js"></script>
+</body>
+</html>
